@@ -1,0 +1,11 @@
+{
+  "name": "ourscout-api",
+  "version": "0.0.1",
+  "description": "Api to get scouting data",
+  "main": "src/Infra/server.js",
+  "repository": {
+    "url": "https://github.com/escoteirosdobrasil/ourscout-api",
+    "type": "git"
+  },
+  "license": "MIT"
+}
