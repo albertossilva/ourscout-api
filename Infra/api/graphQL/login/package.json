@@ -1,0 +1,5 @@
+{
+  "name": "The shema for login",
+  "private": true,
+  "main": "./login.schema.js"
+}

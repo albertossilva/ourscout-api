@@ -7,5 +7,36 @@
     "url": "https://github.com/escoteirosdobrasil/ourscout-api",
     "type": "git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=development NODE_PATH=./ nodemon Infra/api/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-redis": "^3.2.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "express-winston": "^2.1.2",
+    "graphql": "^0.8.2",
+    "graphql-errors": "^2.1.0",
+    "graphql-server-express": "^0.4.3",
+    "redis": "^2.6.3",
+    "siguex": "^0.0.2",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "cucumber": "^2.0.0-rc.5",
+    "faker": "^3.1.0",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.2",
+    "nodemon": "^1.11.0",
+    "nyc": "^10.0.0",
+    "rosie": "^1.6.0",
+    "sinon": "^1.17.7",
+    "standard": "^8.6.0",
+    "watch-cli": "^0.2.1"
+  }
 }
