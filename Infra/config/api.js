@@ -1,5 +1,5 @@
 const localApi = {
-  port: 3000,
+  port: 3001,
   graphiql: true,
   corsOrigin: '*',
   sessionSecret: 'ourscout-dev'
