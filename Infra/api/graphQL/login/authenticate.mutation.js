@@ -2,14 +2,15 @@ const { GraphQLString } = require('graphql')
 
 module.exports = {
   type: GraphQLString,
+  description: 'Authenticated user on SIGUE, and enable access to sigue information',
   args: {
     username: {
       type: GraphQLString,
-      name: 'Sigue username'
+      description: 'The same user of SIGUE'
     },
     password: {
       type: GraphQLString,
-      name: 'Sigue password'
+      description: 'The same password of SIGUE'
     },
   },
   resolve: (_, { username, password }, { siguex }) => {
